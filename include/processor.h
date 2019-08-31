@@ -7,6 +7,8 @@ class Processor {
 
   // TODO: Declare any necessary private members
  private:
+  long last_total_jiffies_ = 0; // stores the last value of total_jiffies
+  long last_active_jiffies_ = 0; // stores the last value of active_jiffies
 };
 
 #endif
